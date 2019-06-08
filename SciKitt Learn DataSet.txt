@@ -1,0 +1,35 @@
+##iris dataset
+from sklearn.datasets import
+import pandas as pd
+
+
+
+iris=load_iris()
+iris.keys()
+
+print iris.keys()
+
+##['target_names','data','target','DESCR','feature_names']
+
+print iris.DESCR
+
+print iris.feature_names
+
+print iris.target_names
+
+print iris.data
+
+print iris.data.shape
+
+ir=pd.aud(iris.data)
+ir.columns = iris.feature_names
+ir['CLASS']=iris.target
+##ir['CLASS_NAME']=iris.target_names
+ir.head(150)
+
+## the fifth column is out put and others which are total features for individual flower,  we can give another flower which having these features.
+
+
+
+
+

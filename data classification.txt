@@ -1,0 +1,33 @@
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+%importmatplotlib online
+
+
+aud= pd.read_csv ("iris.csv")
+
+
+data
+
+data["f5"].value_counts()
+
+sns.FacetGrid(data.hue="f5",sixe=)\
+.map(plt.scatter,"f1", "f2")\
+.add_legend()
+
+##arrays
+s=np.asarray([1,0,0])
+ve=np.asarray([0,1,0])
+vi=np.asarray([0,0,1])
+data['f5']=data['f5'].map({'Iris-setosa':s, 'Iris-versicolor':ve , 'iris-virginica'= vi ])
+
+data
+
+
+
+
+
+
+
+
